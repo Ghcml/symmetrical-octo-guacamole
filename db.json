@@ -1,0 +1,118 @@
+{
+  "get": {
+    "ok": false,
+    "issues": {
+      "vulnerabilities": [
+        {
+          "id": "SNYK-NODE",
+          "url": "https://snyk.io/vuln/SNYK-NODE",
+          "title": "test vuln",
+          "type": "vuln",
+          "description": "test vuln",
+          "from": [
+            "foobar@12.3.1"
+          ],
+          "package": "foobar",
+          "version": "12.3.1",
+          "severity": "low",
+          "exploitMaturity": "no-known-exploit",
+          "language": "js",
+          "packageManager": "maven",
+          "semver": {
+            "vulnerable": [
+              "[,13.13)"
+            ]
+          },
+          "publicationTime": "2012-03-03T17:20:25Z",
+          "disclosureTime": "2020-03-30T17:20:23Z",
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "identifiers": {
+            "CVE": [],
+            "CWE": [
+              "CWE-200"
+            ]
+          },
+          "credit": [
+            "Hanson Char"
+          ],
+          "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+          "cvssScore": 3.7,
+          "patches": [],
+          "upgradePath": [
+            "foobar@14.3.5"
+          ]
+        },
+        {
+          "id": "SNYK-NODE-OTRA",
+          "url": "https://snyk.io/vuln/SNYK-NODE-OTRA",
+          "title": "test vuln",
+          "type": "vuln",
+          "description": "test vuln",
+          "from": [
+            "foobar@12.3.1"
+          ],
+          "package": "foobar",
+          "version": "12.3.1",
+          "severity": "low",
+          "exploitMaturity": "no-known-exploit",
+          "language": "node",
+          "packageManager": "npm",
+          "semver": {
+            "vulnerable": [
+              "[,12.13)"
+            ]
+          },
+          "publicationTime": "2012-03-03T17:20:25Z",
+          "disclosureTime": "2020-03-30T17:20:23Z",
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "identifiers": {
+            "CVE": [],
+            "CWE": [
+              "CWE-200"
+            ]
+          },
+          "credit": [
+            "Hanson Char"
+          ],
+          "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+          "cvssScore": 3.7,
+          "patches": [],
+          "upgradePath": [
+            "foobar@13.0.15"
+          ]
+        }
+      ],
+      "licenses": []
+    },
+    "dependencyCount": 10,
+    "org": {
+      "name": "mercadolibre",
+      "id": "431e18ab-1337-4357-b529-4f940151f8a7"
+    },
+    "licensesPolicy": {
+      "severities": {
+        "AGPL-1.0": "high",
+        "AGPL-3.0": "high",
+        "Artistic-1.0": "medium",
+        "Artistic-2.0": "medium",
+        "CDDL-1.0": "medium",
+        "CPOL-1.02": "high",
+        "EPL-1.0": "medium",
+        "GPL-2.0": "high",
+        "GPL-3.0": "high",
+        "LGPL-2.0": "medium",
+        "LGPL-2.1": "medium",
+        "LGPL-3.0": "medium",
+        "MPL-1.1": "medium",
+        "MPL-2.0": "medium",
+        "MS-RL": "medium",
+        "SimPL-2.0": "high"
+      }
+    },
+    "packageManager": "npm"
+  }
+}
